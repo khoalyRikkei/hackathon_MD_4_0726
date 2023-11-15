@@ -1,0 +1,19 @@
+.container-setup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  .container-modal {
+    width: 400px;
+    form {
+      flex-direction: column;
+      padding: 20px;
+      display: flex;
+      gap: 30px;
+      input,
+      select {
+        width: 100%;
+      }
+    }
+  }
+}
